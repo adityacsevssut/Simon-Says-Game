@@ -30,7 +30,7 @@ function gameFlash(btn){
     btn.classList.add("flash");
     setTimeout(function(){
         btn.classList.remove("flash");
-    },300);
+    },1000);
 }
 let allBtns=document.querySelectorAll(".btn");
 for(btn of allBtns){
